@@ -1,0 +1,22 @@
+[
+    {
+      "tag": "brasil.sudeste.sensor01",
+      "total": 400
+    },
+    {
+      "tag": "brasil.nordeste.sensor02",
+      "total": 400
+    },
+    {
+      "tag": "brasil.norte.sensor03",
+      "total": 400
+    },
+    {
+      "tag": "brasil.centrooeste.sensor04",
+      "total": 400
+    },
+    {
+      "tag": "brasil.sul.sensor05",
+      "total": 400
+    }
+  ]
