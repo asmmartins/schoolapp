@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
-import { SensorListComponent } from './sensor-list.component';
+import { PublicSchoolListComponent } from './publicschool-list.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
-    SensorListComponent    
+    PublicSchoolListComponent    
   ],
   imports: [
     RouterModule.forChild([
-      { path: 'sensores', component: SensorListComponent }    
+      { path: 'publicschools', component: PublicSchoolListComponent }    
     ]),
     SharedModule
   ]
 })
-export class SensorListModule { }
+export class PublicSchoolListModule { }

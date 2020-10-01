@@ -3,28 +3,28 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, tap, map } from 'rxjs/operators';
 
-import { ISensor } from './sensor';
+import { IPublicSchool } from './publicschool';
 
 @Injectable({
   providedIn: 'root'
 })
-export class SensorListService {
+export class PublicSchoolListService {
 
-  private sensoresUrl = 'https://localhost:5001/sensores';
+  private url = 'https://amschoolapi.azurewebsites.net/public-schools/14523698';
 
   constructor(private http: HttpClient) { }
 
-  getSensores(): Observable<ISensor[]> {
-    return this.http.get<ISensor[]>(this.sensoresUrl)
+  getPublicSchools(): Observable<IPublicSchool[]> {
+    return this.http.get<IPublicSchool[]>(this.url)
       .pipe(        
         catchError(this.handleError)
       );
   }
 
-  getSensor(tag: string): Observable<ISensor | undefined> {
-    return this.getSensores()
+  getPublicSchool(inep: string): Observable<IPublicSchool | undefined> {
+    return this.getPublicSchools()
       .pipe(
-        map((sensores: ISensor[]) => sensores.find(s => s.tag === tag))
+        map((publicschools: IPublicSchool[]) => publicschools.find(s => s.inep === inep))
       );
   }
 

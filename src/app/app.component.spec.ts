@@ -16,23 +16,23 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Sensores'`, () => {
+  it(`should have as title 'Escolas'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.pageTitle).toEqual('Sensores');
+    expect(app.pageTitle).toEqual('Escolas');
   });
 
-  it(`'should render title as 'Sensores'`, () => {
+  it(`'should render title as 'Escolas'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;    
-    expect(compiled.querySelector('a').textContent).toContain('Sensores');    
+    expect(compiled.querySelector('a').textContent).toContain('Escolas');    
   });
 
-  it(`should render two li: 'Nacional and Regional'`, () => {
+  it(`should render two li: 'Escolas'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;      
-    expect(compiled.querySelectorAll('li').length).toBe(2);    
+    expect(compiled.querySelectorAll('li').length).toBe(1);    
   });
 });

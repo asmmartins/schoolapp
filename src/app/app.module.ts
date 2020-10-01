@@ -4,11 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { SensorListComponent } from './sensores-list/sensor-list.component';
-import { SensorRegionalListComponent } from './sensores-regionais-list/sensor-regional-list.component';
+import { PublicSchoolListComponent } from './publicschools-list/publicschool-list.component';
 
-import { SensorListModule } from './sensores-list/sensor-list.module';
-import { SensorRegionalListModule } from './sensores-regionais-list/sensor-regional-list.module';
+import { PublicSchoolListModule } from './publicschools-list/publicschool-list.module';
+
 
 @NgModule({
   declarations: [
@@ -18,13 +17,11 @@ import { SensorRegionalListModule } from './sensores-regionais-list/sensor-regio
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: 'sensores', component: SensorListComponent },      
-      { path: '', redirectTo: 'sensores', pathMatch: 'full' },
-      { path: '**', redirectTo: 'sensores', pathMatch: 'full' },
-      { path: 'sensores-regionais', component: SensorRegionalListComponent }
-    ]),    
-    SensorListModule,
-    SensorRegionalListModule
+      { path: 'publicschools', component: PublicSchoolListComponent } ,     
+      { path: '', redirectTo: 'publicschools', pathMatch: 'full' },
+      { path: '**', redirectTo: 'publicschools', pathMatch: 'full' },            
+    ]),        
+    PublicSchoolListModule
   ],
   bootstrap: [AppComponent]
 })

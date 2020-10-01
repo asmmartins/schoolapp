@@ -18,17 +18,17 @@
     </div>
     <div class='table-responsive'>
       <table class='table'
-             *ngIf='sensores && sensores.length'>
+             *ngIf='publicschools && publicschools.length'>
         <thead>
           <tr>            
-            <th>Região</th>
-            <th>Total</th>            
+            <th>Inep</th>
+            <th>Nome</th>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor='let sensor of filteredSensores'>            
-            <td>{{ sensor.region }}</td>
-            <td>{{ sensor.total }}</td>            
+          <tr *ngFor='let publicSchool of filteredpublicschools'>            
+            <td>{{ publicSchool.Inep }}</td>
+            <td>{{ publicSchool.Name }}</td>            
           </tr>
         </tbody>
       </table>
