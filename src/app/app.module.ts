@@ -7,21 +7,23 @@ import { AppComponent } from './app.component';
 import { PublicSchoolListComponent } from './publicschools-list/publicschool-list.component';
 
 import { PublicSchoolListModule } from './publicschools-list/publicschool-list.module';
+import { ProductModule } from './publicschools/publicschool.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,    
+    AppComponent      
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: 'publicschools', component: PublicSchoolListComponent } ,     
-      { path: '', redirectTo: 'publicschools', pathMatch: 'full' },
-      { path: '**', redirectTo: 'publicschools', pathMatch: 'full' },            
+      { path: 'escolas', component: PublicSchoolListComponent } ,     
+      { path: '', redirectTo: 'escolas', pathMatch: 'full' },
+      { path: '**', redirectTo: 'escolas', pathMatch: 'full' },            
     ]),        
-    PublicSchoolListModule
+    PublicSchoolListModule,
+    ProductModule
   ],
   bootstrap: [AppComponent]
 })
