@@ -21,11 +21,12 @@ export class PublicSchoolService {
         catchError(this.handleError)
       );
   }
-
-  getPublicSchool(id: string): Observable<IPublicSchool | undefined> {
-    return this.getPublicSchools()
+  
+  getPublicSchool(id: string): Observable<IPublicSchool> {
+    return this.http.get<IPublicSchool>((this.url + '/' + id))
       .pipe(
-        map((publicSchools: IPublicSchool[]) => publicSchools.find(p => p.inep === id))
+        tap(data => console.log('All: ' + JSON.stringify(data))),
+        catchError(this.handleError)        
       );
   }
 
