@@ -12,7 +12,23 @@
         </div>
         <div class='row'>
           <div class='col-md-4'>Name:</div>
-          <div class='col-md-8'>{{publicSchool.name | lowercase | convertToSpaces: '-'}}</div>
+          <div class='col-md-8'>{{publicSchool.name | convertToSpaces: '-'}}</div>
+        </div>                        
+        <div class='row'>
+          <div class='col-md-4'>Cep:</div>
+          <div class='col-md-8'>{{publicSchool.address.zipCode}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Endereço:</div>
+          <div class='col-md-8'>{{publicSchool.address.baseAddress}} {{publicSchool.address.complementAddress}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Bairro:</div>
+          <div class='col-md-8'>{{publicSchool.address.neighborhood}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4'>Cidade:</div>
+          <div class='col-md-8'>{{publicSchool.address.city}} - {{publicSchool.address.state}}</div>
         </div>                        
       </div>      
     </div>
