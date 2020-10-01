@@ -7,11 +7,12 @@ import { AppComponent } from './app.component';
 import { PublicSchoolListComponent } from './publicschools-list/publicschool-list.component';
 
 import { PublicSchoolListModule } from './publicschools-list/publicschool-list.module';
+import { ProductModule } from './products/product.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,    
+    AppComponent      
   ],
   imports: [
     BrowserModule,
@@ -21,7 +22,8 @@ import { PublicSchoolListModule } from './publicschools-list/publicschool-list.m
       { path: '', redirectTo: 'publicschools', pathMatch: 'full' },
       { path: '**', redirectTo: 'publicschools', pathMatch: 'full' },            
     ]),        
-    PublicSchoolListModule
+    PublicSchoolListModule,
+    ProductModule
   ],
   bootstrap: [AppComponent]
 })
