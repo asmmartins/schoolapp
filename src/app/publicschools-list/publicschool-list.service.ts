@@ -10,7 +10,7 @@ import { IPublicSchool } from './publicschool';
 })
 export class PublicSchoolListService {
 
-  private url = 'https://amschoolapi.azurewebsites.net/public-schools/14523698';
+  private url = 'https://amschoolapi.azurewebsites.net/public-schools';
 
   constructor(private http: HttpClient) { }
 

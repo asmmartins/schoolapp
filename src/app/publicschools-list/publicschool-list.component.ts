@@ -9,7 +9,7 @@ import { PublicSchoolListService } from './publicschool-list.service';
 })
 export class PublicSchoolListComponent implements OnInit {
   
-  pageTitle = 'Escolas';  
+  pageTitle = 'Escolas';
   errorMessage = '';
 
   private _listFilter = '';
@@ -24,7 +24,7 @@ export class PublicSchoolListComponent implements OnInit {
   filteredpublicschools: IPublicSchool[] = [];
   publicschools: IPublicSchool[] = [];
 
-  constructor(private publicschoolListService: PublicSchoolListService) { }
+  constructor(private publicSchoolListService: PublicSchoolListService) { }
 
   performFilter(filterBy: string): IPublicSchool[] {
     filterBy = filterBy.toLocaleLowerCase();
@@ -33,7 +33,7 @@ export class PublicSchoolListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.publicschoolListService.getPublicSchools().subscribe({
+    this.publicSchoolListService.getPublicSchools().subscribe({
       next: publicschools => {
         this.publicschools = publicschools;
         this.filteredpublicschools = this.publicschools;
