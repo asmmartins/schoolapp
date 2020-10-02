@@ -1,0 +1,52 @@
+<div class='card'>
+  <div class='card-header'>    
+  </div>
+  <div class='card-body'>
+    <div class=''>
+      <form #createPublicSchoolForm (ngSubmit) = "onSubmit(createPublicSchoolForm)">
+        <div class="form-group">
+          <label for="inep">Inep</label>
+          <input type="text" class="form-control" id="inep" aria-describedby="inepHelp" placeholder="Digite o código inep" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Digite o nome da escola" ngModel>          
+        </div>                    
+        <div class="form-group">
+          <label for="zipCode">CEP</label>
+          <input type="text" class="form-control" id="zipCode" aria-describedby="zipCodeHelp" placeholder="Digite o cep do endereço" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="baseAddress">Endereço</label>
+          <input type="text" class="form-control" id="baseAddress" aria-describedby="baseAddressHelp" placeholder="Digite o endereço" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="complementAddress">Complemento</label>
+          <input type="text" class="form-control" id="complementAddress" aria-describedby="complementAddressHelp" placeholder="Digite o complemento do endereço" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="neighborhood">Bairro</label>
+          <input type="text" class="form-control" id="neighborhood" aria-describedby="neighborhoodHelp" placeholder="Digite o bairro" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="city">Cidade</label>
+          <input type="text" class="form-control" id="city" aria-describedby="cityHelp" placeholder="Digite a cidade" ngModel>          
+        </div>
+        <div class="form-group">
+          <label for="state">Estado</label>
+          <input type="text" class="form-control" id="state" aria-describedby="stateHelp" placeholder="Digite o estado" ngModel>          
+        </div>        
+        <div class="form-group">
+          <input class='btn btn-primary float-right' type = "submit" value = "Salvar">
+        </div>        
+      </form>
+    </div>        
+  </div>
+  <div class='card-footer'>
+    <button class='btn btn-outline-secondary'
+            (click)='onBack()'
+            style='width:80px'>
+      <i class='fa fa-chevron-left'></i>
+    </button>
+  </div>
+</div>
