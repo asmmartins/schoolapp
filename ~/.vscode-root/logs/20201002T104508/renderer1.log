@@ -1,0 +1,3 @@
+[2020-10-02 10:49:28.813] [renderer1] [error] The Java Runtime Environment can not be located. Please install a JRE, or configure its path with the
+      sonarlint.ls.javaHome property. You can also let SonarLint download the JRE from AdoptOpenJDK. This JRE will be
+      used only by SonarLint.

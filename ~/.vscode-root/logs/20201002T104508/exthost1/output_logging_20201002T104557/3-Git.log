@@ -1,0 +1,653 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/asimartins/Projects/school/schoolapp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.spec.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.spec.ts
+> git show --textconv :src/app/publicschools-create/publicschool.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.ts
+> git show --textconv :src/app/publicschools-create/publicschool.service.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.service.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/app.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/app.component.html
+> git cat-file -s 48b6b08991ec4f346a09f1b1e041f5d5d76caf35
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/publicschools/publicschool-list.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.html
+> git cat-file -s 3636428671aa8200c144429db68b535d8a23083f
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools/publicschool.module.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool.module.ts
+> git cat-file -s df74475ad09542d1bf32a77d6f942f7ad4a4d793
+> git show --textconv :src/app/publicschools/publicschool-detail.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-detail.component.html
+> git cat-file -s c8e39ed0728c058c928c8c5eafa9b29a14fe1f40
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools-create/publicschool.service.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.service.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.ts
+> git show --textconv :src/app/publicschools/publicschool-list.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.ts
+> git cat-file -s e4bb226592bc12a41dfbdd7df44f80b45ac2dcac
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.spec.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.spec.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.ts
+> git show --textconv :src/app/publicschools/publicschool-list.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.ts
+> git cat-file -s e4bb226592bc12a41dfbdd7df44f80b45ac2dcac
+> git show --textconv :src/app/publicschools/publicschool-detail.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-detail.component.html
+> git cat-file -s c8e39ed0728c058c928c8c5eafa9b29a14fe1f40
+> git show --textconv :src/app/publicschools/publicschool-detail.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-detail.component.ts
+> git cat-file -s ec2dea98223788b95e6b4f3d1443a24af80fa9a0
+> git show --textconv :src/app/publicschools/publicschool-list.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.css
+> git cat-file -s 862d76850393a91fea1c88b2cb817ff1849b660a
+> git show --textconv :src/app/publicschools/publicschool-list.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.html
+> git cat-file -s 3636428671aa8200c144429db68b535d8a23083f
+> git show --textconv :src/app/publicschools/publicschool-list.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.ts
+> git cat-file -s e4bb226592bc12a41dfbdd7df44f80b45ac2dcac
+> git show --textconv :src/app/publicschools/publicschool.module.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool.module.ts
+> git cat-file -s df74475ad09542d1bf32a77d6f942f7ad4a4d793
+> git show --textconv :src/app/publicschools/publicschool-list.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.ts
+> git cat-file -s e4bb226592bc12a41dfbdd7df44f80b45ac2dcac
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools/publicschool.module.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool.module.ts
+> git cat-file -s df74475ad09542d1bf32a77d6f942f7ad4a4d793
+> git show --textconv :src/app/publicschools/publicschool-list.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.html
+> git cat-file -s 3636428671aa8200c144429db68b535d8a23083f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools/publicschool-list.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.ts
+> git cat-file -s e4bb226592bc12a41dfbdd7df44f80b45ac2dcac
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool.service.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.service.ts
+> git show --textconv :src/app/publicschools-create/publicschool.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.spec.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.spec.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.guard.spec.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.guard.spec.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.spec.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.spec.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.ts
+> git show --textconv :src/app/publicschools-create/publicschool.service.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.service.ts
+> git show --textconv :src/app/publicschools-create/publicschool.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.ts
+> git show --textconv :src/app/publicschools-create/publicschool.service.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool.service.ts
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.css
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.css
+> git show --textconv :src/app/publicschools-create/address.ts
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/address.ts
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/publicschools/publicschool-list.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools/publicschool-list.component.html
+> git cat-file -s 3636428671aa8200c144429db68b535d8a23083f
+> git show --textconv :src/app/publicschools-create/publicschool-create.component.html
+> git ls-files --stage -- /home/asimartins/Projects/school/schoolapp/src/app/publicschools-create/publicschool-create.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse asm/createPublicSchool
+> git rev-parse --symbolic-full-name asm/createPublicSchool@{u}
+> git rev-list --left-right asm/createPublicSchool...refs/remotes/origin/asm/createPublicSchool
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

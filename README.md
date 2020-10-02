@@ -8,7 +8,7 @@ A interface gráfica com o usuário será implementada usando o framework [Angul
 
 A inteface é modularizada de acordo com os casos de uso.
 
-A ideia de dividir os sistemas em módulos percorre por todas as soluçãoes (front-end ou back-end).
+A ideia de dividir os sistemas em módulos percorre por todas as soluções (front-end ou back-end).
 
 #### Setup
 
