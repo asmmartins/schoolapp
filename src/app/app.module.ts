@@ -2,12 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { PublicSchoolListComponent } from './publicschools-list/publicschool-list.component';
 
 import { PublicSchoolListModule } from './publicschools-list/publicschool-list.module';
-import { ProductModule } from './publicschools/publicschool.module';
+import { PublicSchoolModule } from './publicschools/publicschool.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ProductModule } from './publicschools/publicschool.module';
       { path: '**', redirectTo: 'escolas', pathMatch: 'full' },            
     ]),        
     PublicSchoolListModule,
-    ProductModule
+    PublicSchoolModule,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })
